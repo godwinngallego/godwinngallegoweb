@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio of Godwinn Gallego, Information Technology student showcasing web development projects">
+  <title>My Portfolio</title>
+  <style>
+    /* CSS styles embedded in HTML */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-image: url('building.png');
+      height: 100vh;
+      background-size: cover;
+      background-position: center;
+      
+    }
+
+    header {
+      background: linear-gradient(to right, #ff6e7f, #bfe9ff);
+      color: black;
+      text-align: center;
+      padding: 40px 20px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      gap: 25px;
+      flex-wrap: wrap;
+      margin-top: 20px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+      font-size: 1rem;
+      padding: 8px 12px;
+      transition: background 0.3s;
+    }
+
+    nav ul li a:hover {
+      background-color: rgba(255, 255, 255, 0.2);
+      border-radius: 5px;
+    }
+
+    section {
+      padding: 60px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    h2 {
+      color: #ff6e7f;
+      font-size: 2rem;
+      margin-bottom: 20px;
+    }
+
+    .project-list {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    .project-list li {
+      background-color: #ffe0e0;
+      margin-bottom: 15px;
+      padding: 15px 20px;
+      border-left: 5px solid #ff6e7f;
+      border-radius: 8px;
+      font-size: 1.1rem;
+      transition: background 0.3s;
+    }
+
+    .project-list li:hover {
+      background-color: #ffd1d1;
+    }
+
+    a {
+      color: #ff6e7f;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      background-color: #ff6e7f;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+
+    @media (max-width: 768px) {
+      nav ul {
+        flex-direction: column;
+        gap: 10px;
+      }
+
+      header h1 {
+        font-size: 2rem;
+      }
+
+      section {
+        padding: 40px 15px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to My Portfolio</h1>
+    <nav aria-label="Main navigation">
+      <ul role="navigation">
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>Hello! I'm <strong>Godwinn Gallego</strong>, an Information Technology student from Golden States. I love building websites and learning new tech.</p>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <ul class="project-list">
+        <li>🧮Mobile Legend Piloter</li>
+        <li>🧮Graphic Designer</li>
+        <li>🧮Legit midman</li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>CONTACT ME</h2>
+      <p>Email: <a href="mailto:godwinngallego@gmail.com">godwinngallego@gmail.com</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 My Portfolio. All rights reserved.</p>
+  
